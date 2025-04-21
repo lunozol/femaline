@@ -1,0 +1,28 @@
+"click_gui" {
+    key=54
+    type=keyboard
+}
+flight {
+    key=34
+    type=keyboard
+}
+"kill_aura" {
+    key=19
+    type=keyboard
+}
+phase {
+    key=46
+    type=keyboard
+}
+scaffold {
+    key=33
+    type=keyboard
+}
+speed {
+    key=47
+    type=keyboard
+}
+timer {
+    key=33
+    type=keyboard
+}
