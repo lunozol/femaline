@@ -96,28 +96,6 @@ public class Initializer {
 
     public void onProtection(String token) {
         try {
-
-//            Blowfish blowfish = new Blowfish();
-//            extra = blowfish.decryptString(extra);
-//            long time = Long.parseLong(extra.split(":")[0]);
-//
-//            // Generic protection checks
-//            if (Novoline.getInstance().getProtection() == null) {
-//                throw new Throwable();
-//            } else if (!Novoline.getInstance().getProtection().isPassed()) {
-//                Novoline.getInstance().getProtection().novoDbgPrint("Protection is not passed");
-//                throw new Throwable();
-//            } else if (System.currentTimeMillis() - time > 8000) {
-//                Novoline.getInstance().getProtection().novoDbgPrint("Failed time check");
-//                throw new Throwable();
-//            } else if (!Gui.protectionIsPassed) {
-//                Novoline.getInstance().getProtection().novoDbgPrint("Failed GUIProtection check");
-//                throw new Throwable();
-//            } else if (API.getHWID().hashCode() == -1617199657) {
-//                Novoline.getInstance().getProtection().novoDbgPrint("Failed hash check");
-//                throw new Throwable();
-//            }
-
             {
                 secretShit = 0.0001000000001;
                 flight50 = 5.0d;
@@ -139,7 +117,7 @@ public class Initializer {
                 register("hud", HUD::new);
                 register("click_gui", ClickGUI::new);
                 register("anti_bot", AntiBot::new);
-                //           register("no_rotate", NoRotate::new);
+                register("no_rotate", NoRotate::new);
                 register("speed_mine", SpeedMine::new);
                 register("auto_pot", AutoPot::new);
                 register("kill_aura", KillAura::new);
@@ -165,7 +143,8 @@ public class Initializer {
                 register("phase", Phase::new);
                 register("auto_tool", AutoTool::new);
                 register("animations", Animations::new);
-                //     register("long-jump", LongJump::new);
+                register("auto-cum", AutoCum::new);
+                register("long-jump", LongJump::new);
                 register("teleport", Teleport::new);
                 register("glint-colorize", GlintColorize::new);
                 register("middle-click", MiddleClick::new);
@@ -203,10 +182,8 @@ public class Initializer {
                 register("arrows", Arrows::new);
                 register("bed-breaker", BedBreaker::new);
                 register("auto-heal", AutoHead::new);
-                //   register("click-teleport", ClickTeleport::new);
                 register("flight", Flight::new);
                 register("anti_void", AntiVoid::new);
-                register("long-jump", LongJump::new);
                 register("anti-alts", AntiAtlas::new);
                 register("blocksoverlay",BlockOutline::new);
 

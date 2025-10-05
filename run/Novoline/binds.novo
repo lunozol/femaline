@@ -1,3 +1,19 @@
+"anti_void" {
+    key=35
+    type=keyboard
+}
+"auto_armor" {
+    key=44
+    type=keyboard
+}
+bed-breaker {
+    key=45
+    type=keyboard
+}
+"chest_stealer" {
+    key=44
+    type=keyboard
+}
 "click_gui" {
     key=54
     type=keyboard
@@ -6,8 +22,16 @@ flight {
     key=34
     type=keyboard
 }
+"inv_manager" {
+    key=44
+    type=keyboard
+}
 "kill_aura" {
     key=19
+    type=keyboard
+}
+long-jump {
+    key=48
     type=keyboard
 }
 phase {
@@ -20,9 +44,5 @@ scaffold {
 }
 speed {
     key=47
-    type=keyboard
-}
-timer {
-    key=33
     type=keyboard
 }

@@ -45,7 +45,7 @@ modules {
     }
     "anti_void" {
         display-name=""
-        enabled=false
+        enabled=true
         hidden=false
         pull-ms=1000
     }
@@ -56,22 +56,27 @@ modules {
     }
     arrows {
         alpha=255
-        alpha-type=Distance
-        color=-16776961
+        alpha-type=Pulse
+        color=-6618881
         color-type=Static
         display-name=""
-        enabled=false
+        enabled=true
         filters=[
             Teams
         ]
         hidden=false
         "only_invisible"=true
-        radius=150
+        radius=165
         rainbow-type=Static
         targets=[
             Players
         ]
         targets-only=false
+    }
+    auto-cum {
+        display-name=""
+        enabled=false
+        hidden=false
     }
     auto-heal {
         check-regen=false
@@ -104,8 +109,8 @@ modules {
     }
     "auto_armor" {
         display-name=""
-        enabled=false
-        equip-delay=3
+        enabled=true
+        equip-delay=1
         hidden=false
         open-inventory=false
     }
@@ -140,7 +145,7 @@ modules {
         enabled=false
         hidden=false
         mode=Simple
-        radious=4
+        radious=5
     }
     blink {
         display-name=""
@@ -150,7 +155,7 @@ modules {
     }
     blocksoverlay {
         display-name=""
-        enabled=false
+        enabled=true
         hidden=false
     }
     brightness {
@@ -205,16 +210,14 @@ modules {
     "chest_stealer" {
         aura=false
         aura-range=4.0
-        "auto_disable"=[
-            Death
-        ]
-        delay=100.0
+        "auto_disable"=[]
+        delay=50.0
         display-name=""
         enabled=false
         extra-packet=false
         hidden=false
         ignore=false
-        silent=false
+        silent=true
     }
     "click_gui" {
         blur=true
@@ -248,6 +251,11 @@ modules {
         enabled=false
         hidden=false
     }
+    dickblox-physcics {
+        display-name=""
+        enabled=false
+        hidden=false
+    }
     disabler {
         display-name=""
         enabled=false
@@ -255,12 +263,12 @@ modules {
     }
     dmg-particles {
         display-name=""
-        enabled=false
+        enabled=true
         hidden=false
     }
     fast-sneak {
         display-name=""
-        enabled=false
+        enabled=true
         hidden=false
     }
     "fast_place" {
@@ -273,10 +281,11 @@ modules {
     flight {
         display-name=""
         dmg-mode=Normal
-        enabled=false
+        enabled=true
         hidden=false
+        hypixel-boost=false
         pearl=false
-        speed=9.0
+        speed=2.0
         viewbobbing=60
     }
     freecam {
@@ -346,22 +355,20 @@ modules {
         hud-mode=Static
         inv-x=480
         inv-y=270
-        notifications-sounds=false
+        notifications-sounds=true
         scale=1
-        scoreboard=-75
-        suffix-type=Bracket
+        scoreboard=30
+        suffix-type=None
         tlist-x=480
         tlist-y=270
     }
     "inv_manager" {
         arrows=128
-        autodisable=[
-            Death
-        ]
+        autodisable=[]
         axe-slot=8
         blocks=128
         bow-slot=2
-        delay=1
+        delay=3
         display-name=""
         enabled=false
         filters=[
@@ -373,7 +380,13 @@ modules {
         inventory-cleaner=true
         keep-items=[
             Sword,
-            Bow
+            Bow,
+            PickAxe,
+            Axe,
+            Shovel,
+            "Golden Apple",
+            Head,
+            Buckets
         ]
         open-inventory=false
         pickaxe-slot=7
@@ -384,7 +397,7 @@ modules {
         display-name=""
         enabled=true
         hidden=false
-        names=false
+        names=true
         needed-only=false
     }
     "item_physic" {
@@ -417,7 +430,7 @@ modules {
         range=7.0
         raytrace=false
         rejoin=3500
-        rotations-smoothness=60
+        rotations-smoothness=25
         switch-delay=400
         target-hud=true
         targets=[
@@ -447,6 +460,8 @@ modules {
         display-name=""
         enabled=false
         hidden=false
+        jump-boost=2
+        speed=5.0
     }
     middle-click {
         display-name=""
@@ -483,9 +498,15 @@ modules {
     }
     "no_fall" {
         display-name=""
-        enabled=false
+        enabled=true
         hidden=false
         no-void=false
+    }
+    "no_rotate" {
+        display-name=""
+        enabled=false
+        ground-check=true
+        hidden=false
     }
     "no_slow" {
         display-name=""
@@ -540,7 +561,7 @@ modules {
     }
     reach {
         display-name=""
-        enabled=false
+        enabled=true
         hidden=false
         range=5
     }
@@ -575,14 +596,14 @@ modules {
     speed {
         display-name=""
         dmg-boost=false
-        enabled=true
+        enabled=false
         hidden=false
         lag-back=false
-        timer-boost=false
+        timer-boost=true
     }
     "speed_mine" {
         display-name=""
-        enabled=false
+        enabled=true
         hidden=false
     }
     sprint {
@@ -592,7 +613,7 @@ modules {
     }
     step {
         display-name=""
-        enabled=false
+        enabled=true
         hidden=false
     }
     streamer {
@@ -643,7 +664,7 @@ modules {
         display-name=""
         enabled=false
         hidden=false
-        timer-speed=1.600000023841858
+        timer-speed=1.2000000476837158
     }
     tracers {
         display-name=""
@@ -662,7 +683,7 @@ modules {
     }
     water-walk {
         display-name=""
-        enabled=false
+        enabled=true
         hidden=false
     }
     waypoints {

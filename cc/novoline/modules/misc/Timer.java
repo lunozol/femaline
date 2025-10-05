@@ -15,6 +15,7 @@ import org.lwjgl.input.Keyboard;
 
 
 public final class Timer extends AbstractModule {
+    private long lastMS = System.currentTimeMillis();
 
     // A property for controlling the timer speed
     @Property("timer-speed")
@@ -46,5 +47,18 @@ public final class Timer extends AbstractModule {
         if (event.getSettingName().equals("TIMER_SPEED")) {
             mc.timer.timerSpeed = timerSpeed.get(); // Dynamically update the timer speed when the slider changes
         }
+    }
+
+    public boolean hasTimePassed(long ms) {
+        return System.currentTimeMillis() - lastMS >= ms;
+    }
+
+    public boolean hasJoinTimePassed() {
+        return hasTimePassed(3000L);
+    }
+
+
+    public void reset() {
+        lastMS = System.currentTimeMillis();
     }
 }

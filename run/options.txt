@@ -1,6 +1,6 @@
 invertYMouse:false
 mouseSensitivity:0.5
-fov:0.35
+fov:0.75
 gamma:10000.0
 saturation:0.0
 renderDistance:8
@@ -10,13 +10,13 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:1
 fancyGraphics:false
 ao:2
-renderClouds:fast
-resourcePacks:[]
+renderClouds:false
+resourcePacks:["metallic lilac.zip"]
 incompatibleResourcePacks:[]
-lastServer:blocksmc.com
+lastServer:localhost:25568
 lang:en_US
 chatVisibility:0
 chatColors:true
@@ -25,7 +25,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:false
 hideServerAddress:false
 advancedItemTooltips:false

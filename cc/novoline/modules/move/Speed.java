@@ -55,7 +55,7 @@ public final class Speed extends AbstractModule {
     @EventTarget
     public void onUpdate(PlayerUpdateEvent event) {
         lastDist = mc.player.getLastTickDistance();
-        baseSpeed = mc.player.getBaseMoveSpeed(0.16) * (mc.player.isInLiquid() ? 0.5 : mc.player.movementInput().sneak() && !isEnabled(FastSneak.class) ? 0.8 : 1.0) * 1.05;
+        baseSpeed = mc.player.getBaseMoveSpeed(0.16) * (mc.player.isInLiquid() ? 0.5 : mc.player.movementInput().sneak() && !isEnabled(FastSneak.class) ? 0.8 : 1.0) * 1.15;
     }
 
     @EventTarget
@@ -68,7 +68,6 @@ public final class Speed extends AbstractModule {
     @EventTarget
     public void onMotion(MotionUpdateEvent event) {
         if (event.getState() == MotionUpdateEvent.State.PRE) {
-            if (ServerUtils.isHypixel()) {
                 if (mc.player.getLastTickDistance() > 0) {
                     if (!isEnabled(Scaffold.class)) {
                         if (MathHelper.round(event.getY(), 3) % 1 % 0.125 == 0) {
@@ -80,7 +79,6 @@ public final class Speed extends AbstractModule {
                         event.setY(event.getY() + 0.015625);
                     }
                 }
-            }
         }
     }
 

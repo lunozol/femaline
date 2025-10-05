@@ -4,7 +4,100 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21436c89-7e3a-43bb-99ef-153062d08ba5" name="更改" comment="114514" />
+    <list default="true" id="21436c89-7e3a-43bb-99ef-153062d08ba5" name="更改" comment="114514">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/minecraft/icons/icon_16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/minecraft/icons/icon_32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc/novoline/modules/misc/AutoCum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc/novoline/utils/MovementUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/lombok.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me/alpine/listener/SubscribeEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hotswap_agent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hotswap_agent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc/novoline/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/cc/novoline/Initializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc/novoline/modules/exploits/Disabler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cc/novoline/modules/exploits/Disabler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc/novoline/modules/misc/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/cc/novoline/modules/misc/Timer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc/novoline/modules/move/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/cc/novoline/modules/move/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc/novoline/modules/move/LongJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/cc/novoline/modules/move/LongJump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc/novoline/modules/move/Scaffold.java" beforeDir="false" afterPath="$PROJECT_DIR$/cc/novoline/modules/move/Scaffold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc/novoline/modules/move/Speed.java" beforeDir="false" afterPath="$PROJECT_DIR$/cc/novoline/modules/move/Speed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc/novoline/utils/PlayerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cc/novoline/utils/PlayerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/.idea/hotswap_agent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/.idea/hotswap_agent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/Initializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/Initializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/exploits/ClickTeleport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/exploits/ClickTeleport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/exploits/Disabler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/exploits/Disabler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/misc/AutoHypixel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/misc/AutoHypixel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/misc/AutoHypixel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/misc/AutoHypixel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/misc/Killsults$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/misc/Killsults$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/misc/Timer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/misc/Timer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/move/Flight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/move/Flight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/move/LongJump.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/move/LongJump.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/move/Speed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/move/Speed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/visual/Animations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/modules/visual/Animations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/utils/PlayerUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/cc/novoline/utils/PlayerUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/Novoline/binds.novo" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/Novoline/binds.novo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/Novoline/configs/default.novo" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/Novoline/configs/default.novo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/Novoline/configs/mos.novo" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/Novoline/configs/mos.novo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/Novoline/players.novo" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/Novoline/players.novo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/2025-04-21-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/2025-04-21-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/2025-04-21-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/2025-04-21-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/2025-04-21-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/2025-04-21-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/2025-04-21-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/2025-04-21-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/2025-04-21-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/2025-04-21-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/2025-04-21-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/2025-04-21-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/2025-04-21-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/2025-04-21-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/optionsof.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/optionsof.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/data/Mineshaft.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/data/Mineshaft.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/data/villages.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/data/villages.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/data/villages_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/data/villages_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/data/villages_nether.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/data/villages_nether.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/playerdata/a01e3843-e521-3998-958a-f459800e4d11.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/playerdata/a01e3843-e521-3998-958a-f459800e4d11.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/playerdata/f42f1426-bdec-3952-8264-d5949489b3a6.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/playerdata/f42f1426-bdec-3952-8264-d5949489b3a6.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/stats/a01e3843-e521-3998-958a-f459800e4d11.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/stats/a01e3843-e521-3998-958a-f459800e4d11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/stats/f42f1426-bdec-3952-8264-d5949489b3a6.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/saves/New World-/stats/f42f1426-bdec-3952-8264-d5949489b3a6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/servers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/servers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/novoline-eclipse-ready/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/Novoline/binds.novo" beforeDir="false" afterPath="$PROJECT_DIR$/run/Novoline/binds.novo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/Novoline/configs/default.novo" beforeDir="false" afterPath="$PROJECT_DIR$/run/Novoline/configs/default.novo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/Novoline/configs/mos.novo" beforeDir="false" afterPath="$PROJECT_DIR$/run/Novoline/configs/mos.novo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/Novoline/players.novo" beforeDir="false" afterPath="$PROJECT_DIR$/run/Novoline/players.novo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-21-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-21-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-21-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-21-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-21-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-21-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-21-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-21-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-21-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-21-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-21-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-21-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-21-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-21-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/optionsof.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/optionsof.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/data/Mineshaft.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/data/Mineshaft.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/data/villages.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/data/villages.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/data/villages_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/data/villages_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/data/villages_nether.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/data/villages_nether.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/a01e3843-e521-3998-958a-f459800e4d11.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/playerdata/a01e3843-e521-3998-958a-f459800e4d11.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/f42f1426-bdec-3952-8264-d5949489b3a6.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/playerdata/f42f1426-bdec-3952-8264-d5949489b3a6.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/stats/a01e3843-e521-3998-958a-f459800e4d11.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/stats/a01e3843-e521-3998-958a-f459800e4d11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/stats/f42f1426-bdec-3952-8264-d5949489b3a6.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/stats/f42f1426-bdec-3952-8264-d5949489b3a6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/servers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/servers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +112,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Hezcheats&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Hezcheats/femaline.git&quot;,
+    &quot;accountId&quot;: &quot;7c0901d6-24e1-49de-a2d3-be49dfd5a58f&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -27,25 +133,43 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2Q2HDBtj3q61OyABoQmEhwAL8wn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Start.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Hanse/Downloads/novoline-eclipse-ready-master",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Start.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/meow/Documents/Astroline BETA 0.1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\meow\femaline\cc\novoline\utils" />
+      <recent name="C:\Users\meow\femaline\assets\minecraft" />
+      <recent name="C:\Users\Hanse\Downloads\novoline-eclipse-ready-master\assets\minecraft\novoline" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\meow\femaline\libs" />
+      <recent name="C:\Users\meow\femaline\me\alpine\listener" />
+      <recent name="C:\Users\meow\femaline" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Start" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Start" />
@@ -78,6 +202,17 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>

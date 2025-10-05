@@ -308,8 +308,8 @@ public final class Scaffold extends AbstractModule {
         }
 
         if (mc.player.isOnGround(0.0001)) {
-            mc.player.motionY = 0.41999998688698;
-            mc.player.setMotion(0.9);
+            mc.player.motionY = 0.42;
+            mc.player.setMotion(1.01);
 
         } else if (mc.player.posY >= Math.round(mc.player.posY) - 0.0001 && mc.player.posY <= Math.round(mc.player.posY) + 0.0001 && !Keyboard.isKeyDown(mc.gameSettings.keyBindSneak.getKeyCode())) {
             mc.player.motionY = 0.0;
