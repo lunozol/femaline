@@ -58,6 +58,7 @@ public final class Speed extends AbstractModule {
         baseSpeed = mc.player.getBaseMoveSpeed(0.16) * (mc.player.isInLiquid() ? 0.5 : mc.player.movementInput().sneak() && !isEnabled(FastSneak.class) ? 0.8 : 1.0) * 1.15;
     }
 
+
     @EventTarget
     public void onSetting(SettingEvent event) {
         if (event.getSettingName().equals("SPEED_TIMER_BOOST") && !timerboost.get()) {
@@ -126,7 +127,8 @@ public final class Speed extends AbstractModule {
                 S27PacketExplosion explosion = (S27PacketExplosion) event.getPacket();
 
                 if (explosion.getAffectedBlockPositions().isEmpty()) {
-                    boostSpeed = Math.hypot(mc.player.motionX + explosion.getMotionX() / 8500, mc.player.motionZ + explosion.getMotionZ() / 8500);
+                    // boostSpeed = Math.hypot(mc.player.motionX + explosion.getMotionX() / 8500, mc.player.motionZ + explosion.getMotionZ() / 8500);
+                    boostSpeed = Math.hypot(explosion.getMotionX() * 10, explosion.getMotionZ() * 10);
                     expBoost = true;
                 }
             }

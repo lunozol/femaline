@@ -78,6 +78,7 @@ import net.minecraft.nbt.NBTTagList;
 import net.minecraft.nbt.NBTTagString;
 import net.minecraft.network.EnumConnectionState;
 import net.minecraft.network.NetworkManager;
+import net.minecraft.network.Packet;
 import net.minecraft.network.handshake.client.C00Handshake;
 import net.minecraft.network.login.client.C00PacketLoginStart;
 import net.minecraft.network.play.client.C16PacketClientStatus;
@@ -2095,6 +2096,9 @@ public class Minecraft implements IThreadListener, IPlayerUsage {
     public NetHandlerPlayClient getNetHandler() {
         return player != null ? player.connection : null;
     }
+
+
+
 
     /**
      * Called when user clicked he's mouse middle button (pick block)

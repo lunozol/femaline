@@ -328,6 +328,14 @@ public class NetHandlerPlayClient implements INetHandlerPlayClient {
         }
     }
 
+    public void addToSendQueue(Packet packet) {
+        this.netManager.sendPacket(packet);
+    }
+
+    public void addToSendQueueNoEvent(Packet packet) {
+        this.netManager.sendPacketNoEvent(packet);
+    }
+
     /**
      * Handles the spawning of a painting object
      */

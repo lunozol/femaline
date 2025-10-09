@@ -47,10 +47,11 @@ public final class Scaffold extends AbstractModule {
     private int floorY, oldSlot, towerTick;
     private boolean canDisable, canPlace;
     private float yaw, pitch;
+    private float ToweringSpeed;
 
     /* properties @off */
     @Property("addons")
-    private final ListProperty<String> addons = PropertyFactory.createList("Swapper", "Silent", "Tower").acceptableValues("Swing Item", "Safe Walk", "Swapper", "Silent", "Tower");
+    private final ListProperty<String> addons = PropertyFactory.createList("Swapper", "Silent", "Tower").acceptableValues("Swing Item", "Safe Walk", "Swapper", "Silent", "Tower", "SpeedBoost");
     @Property("tower-move")
     private final BooleanProperty tower_move = PropertyFactory.createBoolean(false);
     @Property("keep_y")
@@ -123,6 +124,7 @@ public final class Scaffold extends AbstractModule {
             return !getBlacklistedBlocks().contains(block);
         }
     }
+    
 
     private int getBiggestBlockSlotInv() {
         int slot = -1, size = 0;
@@ -180,6 +182,12 @@ public final class Scaffold extends AbstractModule {
         return false;
     }
 
+    public boolean isTowering() {
+        return towering();
+    }
+
+
+
     public double[] getExpandCoords(double y) {
         BlockPos underPos = new BlockPos(mc.player.posX, y, mc.player.posZ);
         Block underBlock = mc.world.getBlockState(underPos).getBlock();
@@ -201,6 +209,7 @@ public final class Scaffold extends AbstractModule {
 
         return new double[]{xCalc, zCalc};
     }
+
 
     @EventTarget
     public void onPre2(MotionUpdateEvent event) {
@@ -307,9 +316,10 @@ public final class Scaffold extends AbstractModule {
             mc.player.motionY = Math.round(mc.player.posY) - mc.player.posY;
         }
 
-        if (mc.player.isOnGround(0.0001)) {
+        if (mc.player.isOnGround(0.01)) {
             mc.player.motionY = 0.42;
             mc.player.setMotion(1.01);
+
 
         } else if (mc.player.posY >= Math.round(mc.player.posY) - 0.0001 && mc.player.posY <= Math.round(mc.player.posY) + 0.0001 && !Keyboard.isKeyDown(mc.gameSettings.keyBindSneak.getKeyCode())) {
             mc.player.motionY = 0.0;
@@ -317,8 +327,7 @@ public final class Scaffold extends AbstractModule {
     }
 
     private void tower() {
-        mc.player.setSprinting(false);
-        mc.player.setSpeed(0.0);
+        mc.player.setSprinting(true);
         towerMove();
     }
 

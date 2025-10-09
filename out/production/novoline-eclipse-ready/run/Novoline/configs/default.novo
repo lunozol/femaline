@@ -1,19 +1,19 @@
 config-version=3
 modules {
     "aim_assist" {
-        aim-delay=0.0
+        aim-delay=0
         click-aim=false
         display-name=""
         enabled=false
         height=3.5
         hidden=false
-        horizontal-left=1.0
-        horizontal-right=1.0
+        horizontal-left=1
+        horizontal-right=1
         only-axe-sword=false
         ray-trace=false
-        reach=3.0
-        vertical-down=1.0
-        vertical-up=1.0
+        reach=3
+        vertical-down=1
+        vertical-up=1
     }
     animations {
         block-height=10
@@ -34,7 +34,7 @@ modules {
     }
     "anti_bot" {
         display-name=""
-        enabled=true
+        enabled=false
         hidden=false
         visible-check=false
     }
@@ -83,7 +83,7 @@ modules {
         display-name=""
         enabled=false
         force-absorption=false
-        health=14.0
+        health=14
         hidden=false
     }
     auto-hypixel {
@@ -180,9 +180,9 @@ modules {
         chams-material=false
         chams-onlyTargets=false
         chams-visible=-7697665
-        colored=false
+        colored=true
         display-name=""
-        enabled=true
+        enabled=false
         hand=false
         hidden=false
         pulse=false
@@ -203,24 +203,26 @@ modules {
         color-hidden=-5921883
         color-visible=-39579
         display-name=""
-        enabled=true
+        enabled=false
         hidden=false
         mode=Outline
     }
     "chest_stealer" {
         aura=false
         aura-range=4.0
-        "auto_disable"=[]
-        delay=50.0
+        "auto_disable"=[
+            Death
+        ]
+        delay=100.0
         display-name=""
         enabled=false
         extra-packet=false
         hidden=false
         ignore=false
-        silent=true
+        silent=false
     }
     "click_gui" {
-        blur=true
+        blur=false
         "close_previous"=false
         design=Dropdown
         display-name=""
@@ -229,7 +231,7 @@ modules {
     }
     criticals {
         display-name=""
-        enabled=true
+        enabled=false
         hidden=false
     }
     crosshair {
@@ -238,7 +240,7 @@ modules {
         enabled=true
         gap=0.95
         hidden=false
-        size=4.0
+        size=4
         width=0.25
     }
     damage {
@@ -281,11 +283,11 @@ modules {
     flight {
         display-name=""
         dmg-mode=Normal
-        enabled=true
+        enabled=false
         hidden=false
         hypixel-boost=false
         pearl=false
-        speed=2.0
+        speed=2
         viewbobbing=60
     }
     freecam {
@@ -307,12 +309,12 @@ modules {
         rainbow=false
     }
     glow {
-        alpha=255
-        color=-8044888
+        alpha=50
+        color=-5751202
         display-name=""
-        enabled=true
+        enabled=false
         hidden=false
-        outline-color=Static
+        outline-color=Rainbow
         targets=[
             Players
         ]
@@ -330,12 +332,12 @@ modules {
         size=0.30000001192092896
     }
     hud {
-        background-alpha=115
-        background-mode=Outline
+        background-alpha=50
+        background-mode=Bar
         client-name=Femaline
-        color=-4420865
+        color=-7697665
         display-name=""
-        enabled=true
+        enabled=false
         hidden=false
         hud-elements=[
             ModuleList,
@@ -347,20 +349,18 @@ modules {
             Coords,
             Name,
             Time,
-            FPS,
-            HotBar,
-            Speed
+            FPS
         ]
-        hud-font=Vanilla
+        hud-font=Client
         hud-mode=Static
-        inv-x=480
-        inv-y=270
-        notifications-sounds=true
+        inv-x=640
+        inv-y=360
+        notifications-sounds=false
         scale=1
-        scoreboard=30
-        suffix-type=None
-        tlist-x=480
-        tlist-y=270
+        scoreboard=0
+        suffix-type=Simple
+        tlist-x=640
+        tlist-y=360
     }
     "inv_manager" {
         arrows=128
@@ -406,14 +406,14 @@ modules {
         hidden=false
     }
     "kill_aura" {
-        aps=14.0
+        aps=5.0
         aura-sort=Distance
-        auto-block=true
+        auto-block=false
         autodisable=[
             Death
         ]
         blink=false
-        block-range=10.0
+        block-range=3.5
         color=-1
         display-name=""
         enabled=false
@@ -427,21 +427,19 @@ modules {
         particles=[
             Enchant
         ]
-        range=7.0
+        range=3.5
         raytrace=false
         rejoin=3500
-        rotations-smoothness=25
+        rotations-smoothness=60
         switch-delay=400
-        target-hud=true
+        target-hud=false
         targets=[
-            Players,
-            Animals,
-            Mobs
+            Players
         ]
-        th-x=330
-        th-y=381
+        th-x=640
+        th-y=360
         visualize-range=false
-        wall-range=7.0
+        wall-range=3.5
     }
     killsults {
         display-name=""
@@ -461,7 +459,7 @@ modules {
         enabled=false
         hidden=false
         jump-boost=2
-        speed=5.0
+        speed=5
     }
     middle-click {
         display-name=""
@@ -498,7 +496,7 @@ modules {
     }
     "no_fall" {
         display-name=""
-        enabled=true
+        enabled=false
         hidden=false
         no-void=false
     }
@@ -510,7 +508,7 @@ modules {
     }
     "no_slow" {
         display-name=""
-        enabled=true
+        enabled=false
         hidden=false
         vanilla=false
     }
@@ -561,7 +559,7 @@ modules {
     }
     reach {
         display-name=""
-        enabled=true
+        enabled=false
         hidden=false
         range=5
     }
@@ -599,21 +597,21 @@ modules {
         enabled=false
         hidden=false
         lag-back=false
-        timer-boost=true
+        timer-boost=false
     }
     "speed_mine" {
         display-name=""
-        enabled=true
+        enabled=false
         hidden=false
     }
     sprint {
         display-name=""
-        enabled=true
+        enabled=false
         hidden=false
     }
     step {
         display-name=""
-        enabled=true
+        enabled=false
         hidden=false
     }
     streamer {
@@ -631,7 +629,7 @@ modules {
         hidden=false
     }
     target-strafe {
-        attack-radius=2.0
+        attack-radius=2
         autothirdperson=false
         avoid-edges=false
         behind=false
@@ -650,7 +648,7 @@ modules {
         points=true
         points-multiplier=3.5
         range=1.1
-        safe-radius=2.0
+        safe-radius=2
         space=false
         switch-hurt-tick=8
     }
@@ -676,14 +674,14 @@ modules {
         alerts=false
         chance=100
         display-name=""
-        enabled=true
+        enabled=false
         hidden=false
         horizontal=0
         vertical=0
     }
     water-walk {
         display-name=""
-        enabled=true
+        enabled=false
         hidden=false
     }
     waypoints {
@@ -695,7 +693,7 @@ modules {
         display-name=""
         enabled=false
         hidden=false
-        time=12.0
+        time=12
         weather-control=false
         weather-mode=Clean
     }

@@ -1,10 +1,17 @@
 package viaversion.viarewind.utils;
 
+import net.minecraft.client.Minecraft;
+import net.minecraft.network.Packet;
 import viaversion.viaversion.api.PacketWrapper;
 import viaversion.viaversion.api.protocol.Protocol;
 import viaversion.viaversion.exception.CancelException;
 
 public class PacketUtil {
+
+
+    public static void send(final Packet<?> packet) {
+        Minecraft.getInstance().getNetHandler().addToSendQueue(packet);
+    }
 
 	public static void sendToServer(PacketWrapper packet, Class<? extends Protocol> packetProtocol) {
 		sendToServer(packet, packetProtocol, true);

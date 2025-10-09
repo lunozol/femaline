@@ -1,6 +1,6 @@
 invertYMouse:false
 mouseSensitivity:0.5
-fov:0.75
+fov:1.0
 gamma:10000.0
 saturation:0.0
 renderDistance:8
@@ -10,13 +10,13 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:1
+difficulty:2
 fancyGraphics:false
 ao:2
 renderClouds:false
-resourcePacks:["metallic lilac.zip"]
+resourcePacks:["§4§lDr3m2 Red Edit.zip"]
 incompatibleResourcePacks:[]
-lastServer:localhost:25568
+lastServer:localhost:25508
 lang:en_US
 chatVisibility:0
 chatColors:true
