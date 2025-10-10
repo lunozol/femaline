@@ -27,7 +27,7 @@ public class BlockOutline extends AbstractModule {
         if(mc.objectMouseOver.typeOfHit == MovingObjectPosition.MovingObjectType.BLOCK){
             BlockPos pos = mc.objectMouseOver.getBlockPos();
             RenderUtils.pre3D();
-            RenderUtils.setColor(new Color(152, 217, 0));
+            RenderUtils.setColor(new Color(0, 0, 0));
             double x = pos.getX() - mc.getRenderManager().renderPosX;
             double y = pos.getY() - mc.getRenderManager().renderPosY;
             double z = pos.getZ() - mc.getRenderManager().renderPosZ;

@@ -83,7 +83,7 @@ public class Flight extends AbstractModule {
 
     @Override
     public void onEnable() {
-        checkModule(Speed.class, Scaffold.class);
+        checkModule(Speed.class,Scaffold.class);
         setSuffix(fly_mode.get());
 
         if (fly_mode.get().equals("Hypixel")) {

@@ -245,7 +245,7 @@ public final class TargetStrafe extends AbstractModule {
     }
 
     public boolean support() {
-        return space() && modules.contains("Speed") && isEnabled(Speed.class);
+        return space() && modules.contains("Speed") && isEnabled(Speed.class) ;
     }
 
     public boolean shouldTarget() {

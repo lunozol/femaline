@@ -126,7 +126,7 @@ public class Initializer {
                 register("step", Step::new);
                 register("water-walk", WaterWalk::new);
                 register("no_slow", NoSlow::new);
-                register("speed", Speed::new);
+                register("Speed", Speed::new);
                 register("velocity", Velocity::new);
                 register("glow", ESP::new);
                 register("chams", Chams::new);

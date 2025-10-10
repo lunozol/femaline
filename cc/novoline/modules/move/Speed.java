@@ -11,6 +11,7 @@ import cc.novoline.modules.ModuleManager;
 import cc.novoline.modules.configurations.annotation.Property;
 import cc.novoline.modules.configurations.property.object.BooleanProperty;
 import cc.novoline.modules.configurations.property.object.PropertyFactory;
+import cc.novoline.modules.configurations.property.object.StringProperty;
 import cc.novoline.utils.ServerUtils;
 import cc.novoline.utils.Servers;
 import net.minecraft.network.play.server.S08PacketPlayerPosLook;
@@ -24,6 +25,8 @@ public final class Speed extends AbstractModule {
     private boolean shouldBoost, expBoost;
     private double moveSpeed, lastDist, baseSpeed, boostSpeed;
 
+    @Property("Speed-Mode")
+    private final StringProperty speed_mode = PropertyFactory.createString("NCP").acceptableValues("NCP", "Mospixel", "HypixelHvH");
 
     @Property("lag-back")
     private final BooleanProperty lag_back = PropertyFactory.booleanFalse();
@@ -35,6 +38,7 @@ public final class Speed extends AbstractModule {
     /* constructors @on */
     public Speed(ModuleManager moduleManager) {
         super(moduleManager, "Speed", "Speed", Keyboard.KEY_NONE, EnumModuleType.MOVEMENT, "Increases your in-game speed");
+        Manager.put(new Setting("Speed_Mode","Mode",SettingType.COMBOBOX,this,speed_mode));
         Manager.put(new Setting("SPEED_LAG_CHECK", "Lagback check", SettingType.CHECKBOX, this, lag_back));
         Manager.put(new Setting("SPEED_TIMER_BOOST", "Timer Boost", SettingType.CHECKBOX, this, timerboost));
         Manager.put(new Setting("SPEED_BOOST", "Damage Boost", SettingType.CHECKBOX, this, dmg_boost));
@@ -49,13 +53,23 @@ public final class Speed extends AbstractModule {
 
     @EventTarget
     public void onTick(TickUpdateEvent event) {
-        setSuffix("NCP");
+        setSuffix(this.speed_mode.get());
     }
 
     @EventTarget
     public void onUpdate(PlayerUpdateEvent event) {
-        lastDist = mc.player.getLastTickDistance();
-        baseSpeed = mc.player.getBaseMoveSpeed(0.16) * (mc.player.isInLiquid() ? 0.5 : mc.player.movementInput().sneak() && !isEnabled(FastSneak.class) ? 0.8 : 1.0) * 1.15;
+        if (this.speed_mode.get() == "Mospixel") {
+            lastDist = mc.player.getLastTickDistance();
+            baseSpeed = mc.player.getBaseMoveSpeed(0.16) * (mc.player.isInLiquid() ? 0.5 : mc.player.movementInput().sneak() && !isEnabled(FastSneak.class) ? 0.8 : 1.0) * 1.15;
+            return;
+        } if (this.speed_mode.get() == "HypixelHvH") {
+            lastDist = mc.player.getLastTickDistance();
+            baseSpeed = mc.player.getBaseMoveSpeed(0.16) * (mc.player.isInLiquid() ? 0.5 : mc.player.movementInput().sneak() && !isEnabled(FastSneak.class) ? 0.8 : 1.0) * 1.0439999;
+            return;
+        } if (this.speed_mode.get() == "NCP") {
+            lastDist = mc.player.getLastTickDistance();
+            baseSpeed = mc.player.getBaseMoveSpeed(0.16) * (mc.player.isInLiquid() ? 0.5 : mc.player.movementInput().sneak() && !isEnabled(FastSneak.class) ? 0.8 : 1.0) * 1.05;
+        }
     }
 
 
@@ -69,17 +83,17 @@ public final class Speed extends AbstractModule {
     @EventTarget
     public void onMotion(MotionUpdateEvent event) {
         if (event.getState() == MotionUpdateEvent.State.PRE) {
-                if (mc.player.getLastTickDistance() > 0) {
-                    if (!isEnabled(Scaffold.class)) {
-                        if (MathHelper.round(event.getY(), 3) % 1 % 0.125 == 0) {
-                            event.setY(MathHelper.round(event.getY(), 3));
-                            event.setOnGround(true);
-                        }
-
-                    } else if (mc.player.onGround) {
-                        event.setY(event.getY() + 0.015625);
+            if (mc.player.getLastTickDistance() > 0) {
+                if (!isEnabled(Scaffold.class)) {
+                    if (MathHelper.round(event.getY(), 3) % 1 % 0.125 == 0) {
+                        event.setY(MathHelper.round(event.getY(), 3));
+                        event.setOnGround(true);
                     }
+
+                } else if (mc.player.onGround) {
+                    event.setY(event.getY() + 0.015625);
                 }
+            }
         }
     }
 
@@ -137,7 +151,7 @@ public final class Speed extends AbstractModule {
 
     @Override
     public void onEnable() {
-        setSuffix("NCP");
+        setSuffix(this.speed_mode.get());
         checkModule(Flight.class);
 
 

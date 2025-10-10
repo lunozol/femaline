@@ -124,7 +124,7 @@ public final class Scaffold extends AbstractModule {
             return !getBlacklistedBlocks().contains(block);
         }
     }
-    
+
 
     private int getBiggestBlockSlotInv() {
         int slot = -1, size = 0;
